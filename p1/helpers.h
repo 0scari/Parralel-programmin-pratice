@@ -25,21 +25,20 @@ namespace helpers {
         return textLines;
     }
 
-    std::string printLine(int pos, std::vector<std::string> lines)
+    void printLine(int pos, std::vector<std::string> lines)
     {
-        return lines[pos];
+        std::cout << lines[pos] << std::endl;
     }
 
-    int nextPos(int &pos)
+    void nextPos(int *pos)
     {
-        return pos + 1;
+        (*pos)++;
     }
 
     void printNumber(int number)
     {
         std::cout << "Printing ... " << number << std::endl;
     }
-
 }
 
 #endif //P1_HELPERS_H

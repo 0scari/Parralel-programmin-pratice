@@ -4,4 +4,4 @@ project(p1)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(p1
-        base.cpp helpers.cpp)
+        base.cpp helpers.h)
