@@ -25,14 +25,23 @@ namespace helpers {
         return textLines;
     }
 
-    void printLine(int pos, std::vector<std::string> lines)
+    void printLine(int *pos, int oldPos, std::vector<std::string> lines)
     {
-        std::cout << lines[pos] << std::endl;
+        if (*pos > oldPos) {
+            mtx.lock();
+            std::cout << lines[*pos] << std::endl;
+            mtx.unlock();
+        } else {
+            printLine(pos, oldPos, lines);
+        }
+
     }
 
     void nextPos(int *pos)
     {
+        mtx.lock();
         (*pos)++;
+        mtx.unlock();
     }
 
 }
