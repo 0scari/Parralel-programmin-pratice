@@ -15,10 +15,11 @@ namespace helpers {
     std::vector<std::string> readFileLines(std::string filename)
     {
         std::ifstream file(filename);
-        std::vector<std::string> textLines;
+        std::vector<std::string> textLines = {"\n"};
         std::string line;
         if(file.is_open()){
             while (getline(file, line)){
+                line.pop_back();
                 textLines.push_back(line);
             }
         }
@@ -44,6 +45,26 @@ namespace helpers {
         mtx.unlock();
     }
 
+
+    void menu(bool *die)
+    {
+        int ch;
+        bool locked = false;
+        do {
+            ch = std::cin.get();
+            if (ch == 'p'){
+                mtx.lock();
+                locked = true;
+            }
+            if (ch == 'r' && locked){
+                mtx.unlock();
+                locked = false;
+                std::cin.clear();
+            }
+        } while(ch != 'e');
+        *die = true;
+
+    }
 }
 
 #endif //P1_HELPERS_H

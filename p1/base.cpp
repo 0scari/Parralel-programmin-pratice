@@ -10,9 +10,11 @@ std::mutex mtx;
 using namespace std;
 
 void task2(vector<string> lines){
+    bool die = false;
     int pos = -1, oldPos = -1;
-    int size = lines.size();
-    while (pos < size){
+    thread menuT (helpers::menu,
+            &die);
+    while (!die){
         thread t1(helpers::nextPos,
                 &pos);
         thread t2(helpers::printLine,
@@ -20,8 +22,12 @@ void task2(vector<string> lines){
         this_thread::sleep_for(chrono::milliseconds(1000));
         t1.join();
         t2.join();
+        if (pos == 43){
+            pos = -1;
+        }
         oldPos = pos;
     }
+    menuT.join();
 }
 
 int main (void)
