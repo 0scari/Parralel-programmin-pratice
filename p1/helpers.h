@@ -35,10 +35,6 @@ namespace helpers {
         (*pos)++;
     }
 
-    void printNumber(int number)
-    {
-        std::cout << "Printing ... " << number << std::endl;
-    }
 }
 
 #endif //P1_HELPERS_H
