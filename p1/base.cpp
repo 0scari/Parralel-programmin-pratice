@@ -4,10 +4,9 @@
 #include <sstream>
 #include <mutex>
 
+using namespace std;
 std::mutex mtx;
 #include "helpers.h"
-
-using namespace std;
 
 void task2(vector<string> lines){
     bool die = false;
