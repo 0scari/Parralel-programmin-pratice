@@ -3,4 +3,4 @@ project(p3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(p3 main.cpp)
+add_executable(p3 main.cpp functions.h)
