@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oskarspozdnakovs/Mac Storage/370ct/remote/main.cpp
+iostream
+-
+cmath
+-
+cstdlib
+-
+cstdio
+-
+vector
+-
+

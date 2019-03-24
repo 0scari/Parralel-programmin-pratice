@@ -1,0 +1,3 @@
+/Users/oskarspozdnakovs/Mac Storage/370ct/remote/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/oskarspozdnakovs/Mac Storage/370ct/remote/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/oskarspozdnakovs/Mac Storage/370ct/remote/cmake-build-debug/CMakeFiles/remote.dir
