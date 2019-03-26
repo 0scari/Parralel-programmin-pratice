@@ -9,12 +9,12 @@
 /Users/oskarspozdnakovs/Mac Storage/370ct/remote/main.cpp
 iostream
 -
-cmath
+mpi.h
+/Users/oskarspozdnakovs/Mac Storage/370ct/remote/mpi.h
+stdio.h
 -
-cstdlib
+string.h
 -
-cstdio
--
-vector
+map
 -
 

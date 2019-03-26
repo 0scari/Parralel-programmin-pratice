@@ -11,7 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7df57556-2fed-4c4d-a538-77247352a435" name="Default Changelist" comment="" />
+    <list default="true" id="7df57556-2fed-4c4d-a538-77247352a435" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/remote.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/remote.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/remote.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,40 +26,66 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/p6/ompbase.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="45" selection-start-line="45" selection-end-line="49" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/p5/ompbase.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="53" selection-start-line="53" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="true" current-in-tab="true">
+            <entry file="remoteDeploymentFS://&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p12/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="338">
+                  <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="true" current-in-tab="true">
+            <entry file="remoteDeploymentFS://&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p11/main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="289">
+                  <caret line="55" column="14" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cout</find>
+      <find>quantity</find>
+      <find>cstr</find>
+      <find>processor_name</find>
+      <find>thread_no</find>
+      <find>v1, v2, v3, v4, v5, v6 ,v7</find>
+      <find>INT_LIST_SIZE</find>
+      <find>print_integer_array</find>
+      <find>Received calculation</find>
+      <find>rand</find>
+      <find>MPI_C_BOOL</find>
+      <find>MPI CHAR</find>
+      <find>swap_arrays</find>
+      <find>Received min</find>
+      <find>Head node receive</find>
+      <find>get_string_repr</find>
     </findStrings>
+    <replaceStrings>
+      <replace>c_str</replace>
+      <replace>node_name</replace>
+      <replace>INT_ARRAY_SIZE</replace>
+      <replace>Received min</replace>
+      <replace>MPI CHAR</replace>
+      <replace>MPI_CHAR</replace>
+      <replace>instruct_swapping</replace>
+      <replace>Head node receive min value</replace>
+      <replace>Head node received</replace>
+      <replace>get_string_repr</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,13 +93,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/p4/ompbase.cpp" />
         <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/p5/ompbase.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p8/nodeNames" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p8/runJob.sh" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p8/runjob_2.sh" />
         <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/p6/ompbase.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p8/exe.sh" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p9/exe.sh" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p8/main.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p9/runjob_2.sh" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/p4/ompbase.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p10/main.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p9/main.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p11/main.cpp" />
+        <option value="&lt;845e8115-f81d-4441-a996-2b4ce2b7acea&gt;/distributed/p12/main.cpp" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="-640" />
     <option name="y" value="-1080" />
@@ -128,12 +171,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-640" y="-1080" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16986156" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.115015976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32970297" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.32673267" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" x="0" y="23" width="635" height="710" id="Terminal" order="10" type="FLOATING" weight="0.45753425" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32970297" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.14483494" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1720517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32970297" />
@@ -144,26 +209,19 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="File Transfer" order="8" weight="0.32871288" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35049504" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34931508" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.22044729" />
-    </layout>
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.2197092" />
+    </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>42</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.sh" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
@@ -176,10 +234,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Make">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="1260">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/usr/include/c++/v1/limits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="449" column="60" selection-start-line="449" selection-start-column="60" selection-end-line="449" selection-end-column="60" />
         </state>
       </provider>
     </entry>
